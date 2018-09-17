@@ -1,0 +1,25 @@
+label {
+    color: whitesmoke;
+}
+
+body h1 {
+    color: whitesmoke;
+}
+
+body {
+    padding: 10%;
+}
+
+button {
+    background-color: #15959F;
+    color: white;
+}
+
+a {
+    border-bottom: 1px white dotted;
+}
+
+input {
+    height: 200%;
+    border-radius: 3px;
+}

@@ -1,0 +1,31 @@
+.lh {
+    line-height: 5;
+}
+
+.navi {
+    width: 100%;
+    padding-top: 5%;
+}
+
+navi h1 {
+    color: white;
+}
+
+.taille {
+    width: 33%;
+    height: 33%;
+
+}
+
+p {
+    padding-top: 5%;
+}
+
+img {
+    width: 33%;
+}
+
+button {
+    background-color: #15959F;
+    color: white;
+}

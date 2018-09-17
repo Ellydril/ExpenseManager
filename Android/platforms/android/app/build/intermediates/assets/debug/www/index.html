@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="container text-center bg-dark">
+    <div class="col justify-content-center">
+        <img src="img/logo.png">
+        <h1>Bienvenue</h1>
+        <form>
+            <div class="form-group">
+                <label>Identifiant</label>
+                <input class="col-12 p-1" type="text" name="identifiant" placeholder="Identifiant" id="login">
+            </div>
+            <div class="form-group">
+                <label>Mot de passe</label>
+                <input class="col-12 p-1" type="password" name="pwd" placeholder="Mot de passe" id="pwd">
+            </div>
+            <button class="btn col" type="button" onclick="tese()">Connexion</button>
+            <script>
+                function tese() {
+                    window.location = "home.html";
+                }
+            </script>
+           <div class="m-3"> <a href="#" style="color: white">Identifiant ou mot de passe oublié ?</a></div>
+        </form>
+    </div>
+</body>
+</html>
