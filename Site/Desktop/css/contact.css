@@ -1,0 +1,9 @@
+@import 'index.css';
+
+.mb-3, .my-3 {
+    color: #FFF !important;
+}
+
+#btn_validation{
+	margin-bottom: 10%;
+}
