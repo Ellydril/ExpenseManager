@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; connect-src http://192.168.15.114">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="cordova.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body class="container text-center bg-dark">
     <div class="col justify-content-center">
@@ -19,14 +22,9 @@
             </div>
             <div class="form-group">
                 <label>Mot de passe</label>
-                <input class="col-12 p-1" type="password" name="pwd" placeholder="Mot de passe" id="pwd">
+                <input class="col-12 p-1" type="password" name="pwd" placeholder="Mot de passe" id="passwd">
             </div>
-            <button class="btn col" type="button" onclick="tese()">Connexion</button>
-            <script>
-                function tese() {
-                    window.location = "home.html";
-                }
-            </script>
+            <button id="btn_connect" class="btn col font-weight-bold" type="button">Connexion</button>
            <div class="m-3"> <a href="#" style="color: white">Identifiant ou mot de passe oublié ?</a></div>
         </form>
     </div>

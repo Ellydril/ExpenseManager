@@ -1,5 +1,7 @@
 .lh {
     line-height: 5;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .navi {
@@ -28,4 +30,5 @@ img {
 button {
     background-color: #15959F;
     color: white;
+    height: 10vh;
 }

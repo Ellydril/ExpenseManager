@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/add_expense.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="text-center w-auto h-auto d-flex bg-dark" id="nav1">
+    <div class="w-100"><img class="float-left" src="img/logo.png">
+        <img class="float-right" src="img/logo.png">
+        <p class="font-weight-bold text-white">PAILLARD ANTHONY</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row wrap p-2 justify-content-center">
+        <form>
+            <div class="form-group">
+                <label>Nom</label>
+                <input class="float-right" type="text" name="nom" placeholder="Nom">
+            </div>
+            <div class="form-group">
+                <label>Type de frais</label>
+                <input class="float-right" type="text" name="frais" placeholder="Type de frais">
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <textarea class="float-right" name="desc"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Montant</label>
+                <input class="float-right" type="text" name="montant" placeholder="0.00€">
+            </div>
+            <div class="form-group">
+                <label>Justificatif</label>
+                <input class="float-right" type="file" name="justif" id="send">
+            </div>
+            <div class="form-group text-center">
+                <input class="btn col-6 font-weight-bold" type="button" value="prendre une photo" name="photo" id="btn_photo">
+            </div>
+            <div class="form-group text-center">
+                <button class="btn col-6 font-weight-bold" type="button">Envoyer</button>
+            </div>
+            <div class="form-group text-center">
+                <button class="btn col-6 font-weight-bold" type="button">Annuler</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script src="js/add_exepense.js"></script>
+</body>
+</html>

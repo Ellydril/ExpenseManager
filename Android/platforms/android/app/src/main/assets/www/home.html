@@ -5,11 +5,12 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/home.js"></script>
 </head>
-<body class="bg-dark">
-<div class="text-center w-auto h-auto d-flex" id="nav1">
+<body>
+<div class="text-center w-auto h-auto d-flex bg-dark" id="nav1">
         <div class="w-100"><img class="float-left" src="img/logo.png">
         <img class="float-right" src="img/logo.png">
         <p class="font-weight-bold text-white">PAILLARD ANTHONY</p>
@@ -17,10 +18,10 @@
 </div>
 <div>
     <div class="col lh">
-        <button class="btn col"> Ajouter une note</button>
-        <button class="btn col"> Mes remboursement</button>
-        <button class="btn col"> Statistique</button>
-        <button class="btn col" onclick="manageBusinessMan()"> Gestion des clients</button>
+        <button class="btn col font-weight-bold" onclick="addExpense()"> Ajouter une note</button>
+        <button class="btn col font-weight-bold"> Mes remboursement</button>
+        <button class="btn col font-weight-bold"> Statistique</button>
+        <button class="btn col font-weight-bold" onclick="manageBusinessMan()"> Gestion des clients</button>
     </div>
 </div>
 

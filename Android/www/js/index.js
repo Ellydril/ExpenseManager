@@ -32,15 +32,31 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+        var btn_connect = document.querySelector('#btn_connect');
+        btn_connect.addEventListener('click', function(evt) {
+            var login = document.querySelector('#login').value.toLowerCase();
+            var passwd = document.querySelector('#passwd').value.toLowerCase();
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "http://192.168.15.114/API/users/checkLog");
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.send("username=" + login + "&password=" + passwd);
+            xhr.onreadystatechange = function () {
+                var DONE = 4; // readyState 4 means the request is done.
+                var OK = 200; // status 200 is a successful return.
+                if (xhr.readyState === DONE) {
+                    var result = xhr.responseText;
+                    var json = JSON.parse(result);
+                    if (json.err){
+                        alert("Login ou mot de passe incorrect")
+                    } else {
+                        window.location = "home.html";
+                    }
+                }
+            }
+        });
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
     }
 };
 
 app.initialize();
+
