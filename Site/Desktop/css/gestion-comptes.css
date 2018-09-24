@@ -1,0 +1,57 @@
+@import url("style.css");
+
+body{
+    background: #FFF;
+}
+
+.navbar{
+    background: #133046;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+
+}
+
+h1 {
+    color:#133046 !important;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+    padding: 50px;
+}
+
+.table-responsive{
+    margin-top:50px;
+}
+
+td{
+    text-align: center;
+}
+
+thead{
+    text-align: center;
+}
+
+table{
+    margin-top:20px;
+}
+table a {
+    color:#383C3D;
+    text-decoration: none;
+}
+
+table a:hover {
+    color:#383C3D;
+    text-decoration: none;
+}
+
+.btn{
+    margin:10px;
+}
+
+.row{
+    margin-top: 20px;
+}

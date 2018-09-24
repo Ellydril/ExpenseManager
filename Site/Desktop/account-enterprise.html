@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr" >
+
+<head>
+    <meta charset="utf-8">
+    <title>Expense Manager</title>
+    <link rel="stylesheet" href="css/account-enterprise.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div id="login" class="col-6">
+            <form name='form-login'>
+                <img class="col-6" src="img/logo.png" alt="" width="260" height="auto">
+
+                <h1 class="h3 mb-3 font-weight-normal">Nouvelle entreprise</h1>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Nom de l'entreprise</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Nom" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">SIRET</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="adresse">Adresse</label>
+                        <input type="text" class="form-control" id="adresse" placeholder="Adresse" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="adresse2">Adresse 2</label>
+                        <input type="text" class="form-control" id="adresse2" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="jesuisunmail@exemple.com">
+                    <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+                        <label for="mdp">Mot de passe</label>
+                        <input type="password" class="form-control" id="mdp" placeholder="">
+                        <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="conf-mdp">Confirmation</label>
+                        <input type="text" class="form-control" id="conf-mdp" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Créer le compte</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
