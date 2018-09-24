@@ -4,14 +4,30 @@ body{
     background: #FFF;
 }
 
+
+.logout {
+    background:#133046;
+}
+
+.logout a {
+    color:#FFF;
+}
+
 .navbar{
-    background: #133046;
+    background: #15959F;
+}
+
+.navbar a {
+    color:#FFF;
+}
+
+.navbar a:hover{
+    color:#133046;
 }
 
 .container-fluid {
     padding-right: 0px !important;
     padding-left: 0px !important;
-
 }
 
 h1 {
@@ -54,4 +70,10 @@ table a:hover {
 
 .row{
     margin-top: 20px;
+}
+
+.nav-link {
+    display: inline;
+    padding: .5rem 1rem;
+    float: right;
 }
