@@ -1,0 +1,14 @@
+BLEU MARINE (couleur secondaire) :
+RVB : 19 48 70
+HEXA : #133046
+Utilisations : fond de la barre supérieur (menu)
+
+BLEU CLAIR (couleur principale):
+RVB : 21 149 159
+HEX : #15959F
+Utilisation : Boutons, liens, fond du bandeau de titre
+
+BLANC :
+RVB : 255 255 255
+HEXA : #FFFFFF
+Utilisation : pour le contraste des titres sur le fond bleu marine
