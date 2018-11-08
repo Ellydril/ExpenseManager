@@ -13,6 +13,10 @@ body{
     color:#FFF;
 }
 
+.logout a:hover {
+    color:#15959F;
+}
+
 .navbar{
     background: #15959F;
 }
